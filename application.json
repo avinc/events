@@ -1,0 +1,27 @@
+[
+    {
+        "settings": [ "master" ],
+        "appPort": "3030",
+        "specs": {
+            "index" : {
+                "type" : "Index"
+            },
+            "create" : {
+                "type" : "Create_Event"
+            },
+            "browse" : {
+                "type" : "Browse_Event"
+            },
+            "login" : {
+                "type" : "Login"
+            }
+
+        }
+    },
+    {
+        "settings": [ "environment:development" ],
+        "staticHandling": {
+            "forceUpdate": true
+        }
+    }
+]

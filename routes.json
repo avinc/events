@@ -1,0 +1,28 @@
+[{
+    "settings": [ "master" ],
+    "index" : {
+    	"verbs" : ["get"],
+    	"path" : "/",
+    	"call" : "index.index"
+    },
+    "create" : {
+    	"verbs" : ["get"],
+    	"path" : "/create",
+    	"call" : "create.index"
+    },
+    "login" : {
+    	"verbs" : ["get"],
+    	"path" : "/login",
+    	"call" : "login.index"
+    },
+    "signup" : {
+    	"verbs" : ["get"],
+    	"path" : "/signup",
+    	"call" : "login.index"
+    },
+    "browse" : {
+    	"verbs" : ["get"],
+    	"path" : "/browse",
+    	"call" : "browse.index"
+    }
+}]
